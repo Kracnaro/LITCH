@@ -1,0 +1,30 @@
+edge-tts>=6.1.0
+SpeechRecognition>=3.10.0
+sounddevice>=0.4.6
+mss>=9.0.1
+numpy>=1.26.0
+Pillow>=10.0.0
+pyautogui>=0.9.54
+pyotp>=2.8.0
+qrcode>=7.4.2
+requests>=2.31.0
+yfinance>=0.2.40
+pypdf>=4.0.0
+
+# ── Brokers API ────────────────────────────────────────────────────────────────
+# IQ Option API (WebSocket directo — instalar desde GitHub):
+#   py -m pip install git+https://github.com/Lu-Yi-Hsun/iqoptionapi
+#
+# Interactive Brokers (requiere TWS o IB Gateway en ejecución):
+#   py -m pip install ibapi
+#   Configurar en TWS: File → Global Config → API → Enable Socket Clients
+#   Puerto: 7496 (TWS) o 4001 (IB Gateway)
+#
+# Charles Schwab (OAuth 2.0 — registrar app en developer.schwab.com):
+#   No requiere instalación adicional (usa requests)
+#   Di a LITCH: 'configurar schwab CLIENTID:SECRET'
+
+# La voz se reproduce con el audio nativo de Windows: no requiere pygame.
+# sounddevice reemplaza pyaudio (compatible con Python 3.14+).
+# Opcional: mente conversacional 100% local con Ollama (https://ollama.com)
+#   ollama pull llama3.2

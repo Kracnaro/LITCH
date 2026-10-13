@@ -1,0 +1,38 @@
+# ── Datos privados y memoria de Litch (NUNCA subir) ──
+data/
+MEMORIA_AP/
+BOVEDA_LITCH/
+*.npz
+*.npy
+*.log
+*.bak
+*.bak-*
+*.antes-*
+llave_maestra.json
+config_claude.json
+broker_config.json
+
+# ── Posiciones de ventana locales ──
+hud_pos.json
+hud_capital_pos.json
+
+# ── Material de estudio de terceros ──
+LIBROS/
+
+# ── Versiones antiguas y notas internas ──
+_version_anterior/
+MAÑANA_*.md
+MEJORAS_*.md
+CLAUDE.md
+**/CLAUDE.md
+
+# ── Python ──
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ── Sistema ──
+desktop.ini
+Thumbs.db
+.vscode/
